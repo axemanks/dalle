@@ -24,7 +24,7 @@ const Home = () => {
       setLoading(true);
 
       try {
-        const response = await fetch('http://localhost:1338/api/v1/post', {
+        const response = await fetch('https://dalleserver.keithscheldt.com/api/v1/post', {
         method: 'GET',
         headers: {
           'Content-Type': 'applicaton/json',
